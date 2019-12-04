@@ -19,6 +19,11 @@
     width: 800px;
 }
 
+/* Using the substep plugin, hide bullet points at first, then show them one by one. */
+.substep { opacity: 0; }
+.substep.substep-active { color: orange;}
+.substep.substep-visible { opacity: 1; transition: opacity 1s; }
+
 
 /* Help popup */
 
